@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Product</title>
+</head>
+
+<body>
+
+    <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+        <div class="offcanvas-header">
+            <button type="button" class="btn-close text-reset ms-auto" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+
+            <div class="container-fluid">
+                <div class="search">
+                    <p class="text-center fs-1">SEARCH</p>
+                    <div class="col-6 text-center mx-auto d-flex pt-4">
+                        <input type="text" class="search w-100 fs-5 p-2" placeholder="search anything..">
+                        <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <header class="header">
+
+        <nav class="navbar navbar-expand-md navbar-light p-2">
+            <div class="container-fluid">
+                <button class="btn d-md-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+      <span><i class="fa-solid fa-bars-staggered fa-lg"></i></span>
+    </button>
+                <a class="navbar-brand mx-auto" href="#">
+                    <img class="logo" src="images/logo.png" alt="">
+                </a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item px-2">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link" href="product.html">Product</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link" href="contact.html">contact</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link" href="#">Men</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link" href="#">Women</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link" href="#">Children</a>
+                        </li>
+                    </ul>
+                </div>
+                <a href="#" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"><i class="fa-solid fa-magnifying-glass fa-lg p-2"></i></a>
+                <a href="C:\Users\Kashif Khan KK\Documents\dream view\login.html"><i class="fa-regular fa-user fa-lg p-2 d-md-block d-none"></i></a>
+                <a href="#"><i class="fa-regular fa-heart fa-lg p-2 d-md-block d-none"></i></a>
+                <a href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-bag-shopping fa-lg p-2"></i></a>
+            </div>
+        </nav>
+
+        <!-- mobile navbar -->
+
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasExampleLabel"><i class="fa-solid fa-bars-staggered pe-2"></i>MENU</h5>
+                <a href="login.html"><span class="me-5"><i class="fa-regular fa-user fa-lg p-3"></i>LOGIN</span></a>
+
+            </div>
+            <div class="offcanvas-body px-0">
+
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item border-bottom p-2">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item border-bottom p-2">
+                        <a class="nav-link" href="contact.html">contact</a>
+                    </li>
+                    <li class="nav-item border-bottom p-2">
+                        <a class="nav-link" href="#">Men</a>
+                    </li>
+                    <li class="nav-item border-bottom p-2">
+                        <a class="nav-link" href="#">Women</a>
+                    </li>
+                    <li class="nav-item border-bottom p-2">
+                        <a class="nav-link" href="#">Children</a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="offcanvas-footer">
+                <button type="button" class="btn-danger w-100 p-3 border-0" data-bs-dismiss="offcanvas" aria-label="Close">Close</button>
+            </div>
+
+        </div>
+
+    </header>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <!-- <h5 id="offcanvasRightLabel">Offcanvas right</h5> -->
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class=" mx-auto">
+                <h1 class="text-center py-3">Shopping Cart</h1>
+                <hr>
+                <div class="d-flex justify-content-between py-3">
+                    <img src=" images/pexels-photo66.webp " width="100px" alt=" ">
+                    <div>
+                        <a href=" " class="text-decoration-none text-dark ">double glasses</a>
+                        <p class="my-2">QTY : 1</p>
+                        <p>$325.00 </p>
+
+                    </div>
+                    <a href="" class="text-dark"><i class="fa-solid fa-trash "></i></a>
+                </div>
+                <div class="d-flex justify-content-between py-5">
+                    <p>Total:</p>
+                    <p>$4000</p>
+                </div>
+                <button class="btn btn-theme btn-dark px-4 py-2">View Cart</button>
+                <button class="btn btn-theme btn-dark px-4 py-2">CheackOut</button>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="container my-5 text-center">
+
+        <p class="fs-1">PRODUCTS</p>
+        <div class="d-flex justify-content-center">
+            <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#" class=" text-dark text-decoration-none">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Product</li>
+                </ol>
+            </nav>
+        </div>
+
+    </div>
+
+    <div class="container-fluid col-11">
+
+        <button class="btn btn-outline-dark" onclick="filter()">filter</button>
+
+    </div>
+
+    <div class="container-fluid mx-auto col-11 mt-5">
+        <div class="row">
+
+            <div class="col-sm-4 col-5">
+                <div class="filter">
+
+                    <div class="d-flex my-4 align-items-center">
+                        <h6 class="me-3 ps-2 m-0">CATEGORIES</h6>
+                        <hr class="w-50">
+                    </div>
+
+                    <div class="d-flex flex-column">
+                        <a href="#" class="text-dark text-decoration-none mb-1 small">Lorem, ipsum dolor.</a>
+                        <a href="#" class="text-dark text-decoration-none mb-1 small">Lorem, ipsum dolor.</a>
+                        <a href="#" class="text-dark text-decoration-none mb-1 small">Lorem, ipsum dolor.</a>
+                        <a href="#" class="text-dark text-decoration-none mb-1 small">Lorem, ipsum dolor.</a>
+                        <a href="#" class="text-dark text-decoration-none mb-1 small">Lorem, ipsum dolor.</a>
+                        <a href="#" class="text-dark text-decoration-none small">Lorem, ipsum dolor.</a>
+                    </div>
+
+                    <div class="d-flex my-4 align-items-center">
+                        <h6 class="me-3 ps-2 m-0">PRICE</h6>
+                        <hr class="w-50">
+                    </div>
+
+                    <div class="d-flex flex-column">
+                        <label class="mb-1">
+    <input type="checkbox" class="me-1"> <span>0 - 100$</span>
+  </label>
+                        <label class="mb-1">
+    <input type="checkbox" class="me-1"> <span>100$ - 200$</span>
+  </label>
+                        <label class="mb-1">
+    <input type="checkbox" class="me-1"> <span>200$ - 300$</span>
+  </label>
+                        <label class="mb-1">
+    <input type="checkbox" class="me-1"> <span>300$ - 400$</span>
+  </label>
+                        <label class="mb-1">
+   <input type="checkbox" class="me-1"> <span>400$ - 500$</span>
+ </label>
+                        <label class="mb-1">
+   <input type="checkbox" class="me-1"> <span>500$ - 600$</span>
+ </label>
+                    </div>
+
+                    <div class="d-flex my-4 align-items-center">
+                        <h6 class="me-3 ps-2 m-0">SIZE</h6>
+                        <hr class="w-50">
+                    </div>
+
+                    <div class="d-flex">
+                        <div class="pro me-3"><a href="#">S</a></div>
+                        <div class="pro me-3"><a href="#">M</a></div>
+                        <div class="pro"><a href="#">L</a></div>
+                    </div>
+
+
+                    <div class="d-flex my-4 align-items-center">
+                        <h6 class="me-3 ps-2 m-0">BRANDS</h6>
+
+                        <hr class="w-50">
+                    </div>
+
+                    <div class="d-flex flex-column">
+                        <a href="#" class="text-dark text-decoration-none mb-1">GUCCI</a>
+                        <a href="#" class="text-dark text-decoration-none mb-1">louis</a>
+                        <a href="#" class="text-dark text-decoration-none mb-1">Lorem</a>
+                        <a href="#" class="text-dark text-decoration-none mb-1">Lorem</a>
+                        <a href="#" class="text-dark text-decoration-none mb-1">Lorem</a>
+                        <a href="#" class="text-dark text-decoration-none">Lorem</a>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="col-sm-8 col-6">
+
+                <p class="border-bottom pb-2">best seller</p>
+            </div>
+
+
+        </div>
+    </div>
+
+</body>
+
+</html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+
+<script>
+    function filter()
+</script>
